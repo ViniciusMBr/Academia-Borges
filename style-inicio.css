@@ -1,0 +1,166 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cabecalho{
+    background: rgb(219, 223, 219);
+    padding: 20px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 20px;
+}
+
+.nome-academia{
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+}
+
+nav{
+    /*Para possibilitar que o nav fique ao lado da logo*/
+    position: absolute;
+    top:110px;
+    right: 0;
+    margin-bottom: 10px;
+}
+
+nav li{
+    /*Para alinhar a lista e não deixa-la uma lista com itens um encima do outro*/
+    display: inline;
+    /*Para a separação entre os ítens fique maior*/
+    margin: 20px 20px 20px 15px;
+
+}
+
+nav a{
+    /*Para deixar o menu com letras maiúsculas*/
+    text-transform: uppercase;
+    color: #070502;
+    /*Para deixar o menu com letras em negrito*/
+    font-weight: bold;
+    font-size: 22px;
+    /*Para tirar o sublinhado*/
+    text-decoration: none;
+}
+
+    /*Para mudar o comportamento para quando o mouse estiver por cima do elemento*/
+nav a:hover{
+    color: #97201c;
+    text-decoration: underline;
+}
+
+h3{
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.principal p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.saude{
+    width: 240px;
+    float: left;
+    margin: 0 20px 20px 0;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+em strong{
+    color: #e21009;
+}
+
+#missao {
+	font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#missao em{
+    font-style: italic;
+}
+
+#missao strong{
+    font-weight: bold;
+    color: #e21009;
+}
+
+.modalidades li{
+    /* Para os ítens ficarem alinhados*/
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*margem entre os produtos*/
+    margin:0 1.5%;
+    padding: 30px 20px;
+    /*Para saber tudo na mesma linha, por exemplo*/
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.modalidades li:hover{
+    border-color: #e61c1c;
+    font-size: 40px;
+}
+
+.modalidades li:active{
+    border-color: #088c19;
+}
+
+/*Para mudar apenas a letra,tamanho, fonte quando o mouse estiver por cima do ítem/produto.*/
+.modalidades li:hover h2{
+    font-size: 34px;
+}
+
+.exerciciosmodalidades{
+    padding: 100px;
+}
+
+.modalidades h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.imagemmusculação{
+    width: 70%;
+}
+
+.Crossfit{
+    width: 70%;
+}
+
+.yogaemeditacao{
+    width: 70% ;
+}
+
+footer{
+        text-align: center;
+        /*Para mudar a cor de um fundo*/
+        background: url("bg.jpg");
+        padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+}
+
+.mapalocal{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mapa{
+    background: linear-gradient(#FEFEFE,#888888);
+}
